@@ -37,6 +37,22 @@ This table compares the performance of various face alignment methods on differe
 **Note:**
 - F and B represent Forward and Backward NME
 - N.C. stands for "Not Calculated".
+#### Comparison of Head Pose Estimation Methods
+
+This table compares the performance of various head pose estimation methods on the BIWI and AFLW2000 datasets.
+
+| Method       | BIWI           |     BIWI         |      BIWI        |      BIWI        | AFLW2000       |         AFLW2000     | AFLW2000              |       AFLW2000       |
+|--------------|----------------|--------------|--------------|--------------|----------------|--------------|--------------|--------------|
+|              | Yaw (deg)      | Pitch (deg)  | Roll (deg)   | MAE (deg)    | Yaw (deg)      | Pitch (deg)  | Roll (deg)   | MAE (deg)    |
+| Yang    | 4.64           | 5.61         | 3.57         | 4.61         | 4.83           | 6.25         | 4.94         | 5.34         |
+| Dai      | 4.54           | 5.61         | 3.05         | 4.40         | 3.26           | 4.72         | 3.23         | 3.74         |
+| Valle   | 3.98           | 4.61         | 2.39         | 3.66         | 3.34           | 4.69         | 3.48         | 3.83         |
+| Hempel  | 3.23           | 5.32         | 2.78         | 3.78         | 3.27           | 4.58         | 2.98         | 3.61         |
+| Nguyen  | 7.0            | 15.1         | 5.1          | 9.0          | 6.74           | 14.32        | 6.02         | 7.23         |
+| Hung    | 15.7           | 13.8         | 7.3          | 12.3         | 16.4           | 14.5         | 7.6          | 13.4         |
+| Musti   | 6.02           | 9.81         | 4.44         | 6.72         | 5.84           | 10.21        | 5.23         | 7.82         |
+| **Ours** | **4.6** | **5.54** | **3.01** | **4.47** | **4.79** | **6.09** | **4.88** | **5.28** |
+| **Improvement (%)** | **+23.58%** | **+43.52%** | **+32.20%** | **+33.48%** | **+17.97%** | **+40.35%** | **+6.69%** | **+26.97%** |
 
 #### Cumulative Error Distribution (CED) Curves
 
