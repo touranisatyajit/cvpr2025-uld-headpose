@@ -6,7 +6,7 @@ Our contributions are summarized as follows:
   - We propose an unsupervised landmark-guided 3D head pose estimation algorithm which sets a new baseline in the unsupervised domain.
   - We present a novel 3D rendering-based augmentation and pose-based batching technique to further refine landmarks and consequently improve head-pose estimation especially across extreme facial orientations.
   - Our approach sets a new stateof-the-art in unsupervised facial landmark estimation across five public datasets: AFLW2000, MAFL, Cat-Heads, LS3D and a facial landmark tracking benchmark 300VW.
-
+![Qualitative Results](figs/main.png)
 
 ## ✍️ Authors  
 - **[Satyajit Tourani](https://scholar.google.com/citations?user=943lKscAAAAJ&hl=en)**
@@ -31,7 +31,7 @@ This table compares the performance of various face alignment methods on differe
 | Mallis (D) [38]     | 2.74  | 3.11  | 3.38  | 3.75  | 2.89  | 3.76  | 3.14     | 3.62     | 5.24   | 7.09   |
 | Hedlin [11]         | 2.56  | 3.02  | 3.11  | 3.78  | 2.64  | 3.45  | 2.99     | 3.57     | 4.46   | 5.53   |
 | Tourani [54]        | 2.19  | 2.78  | 2.92  | 3.62  | 2.18  | 2.85  | 2.89     | 3.12     | 3.69   | 4.12   |
-| **Ours** | 2.09  | 2.62  | 2.76  | 3.54  | 2.08  | 2.73  | 2.69     | 3.01     | 3.31   | 3.89   |
+| **Ours** | **2.09**  | **2.62**  | **2.76**  | **3.54**  | **2.08**  | **2.73**  | **2.69**     | **3.01**     | **3.31**   | **3.89**   |
 | **Improvement (%)** | +4.56%| +5.75%| +5.47%| +2.20%| +4.58%| +4.21%| +6.92%   | +3.52%   | +10.29%| +5.58% |
 
 **Note:**
@@ -51,3 +51,7 @@ This table compares the performance of various face alignment methods on differe
 #### Head Pose Estimation (Qualitative Analysis)
 
 ![Qualitative Results](figs/pose.png)
+
+
+## 📊 Code
+Coming soon...
