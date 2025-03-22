@@ -53,5 +53,5 @@ This table compares the performance of various face alignment methods on differe
 ![Qualitative Results](figs/pose.png)
 
 
-## 📊 Code
+## Code
 Coming soon...
