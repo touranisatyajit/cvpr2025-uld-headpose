@@ -37,3 +37,17 @@ This table compares the performance of various face alignment methods on differe
 **Note:**
 - F and B represent Forward and Backward NME
 - N.C. stands for "Not Calculated".
+
+#### Cumulative Error Distribution (CED) Curves
+
+![Qualitative Results](figs/graph-comparison.png)
+
+
+#### Landmark Estimation (Qualitative Analysis)
+
+![Qualitative Results](figs/landmarks.png)
+
+
+#### Head Pose Estimation (Qualitative Analysis)
+
+![Qualitative Results](figs/pose.png)
