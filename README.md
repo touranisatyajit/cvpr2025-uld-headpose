@@ -73,3 +73,16 @@ This table compares the performance of various head pose estimation methods on t
 
 ## Code
 Coming soon...
+
+## Citation
+
+```
+@InProceedings{Tourani_2025_CVPR,
+    author    = {Tourani, Satyajit and Tourani, Siddharth and Mahmood, Arif and Khan, Muhammad Haris},
+    title     = {Unsupervised Discovery of Facial Landmarks and Head Pose},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {21192-21202}
+}
+```
